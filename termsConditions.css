@@ -1,0 +1,40 @@
+p{
+    color: black;
+}
+
+*{
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+    
+}
+
+h1{
+    padding: .2rem auto;
+    text-align: center;
+}
+
+section{
+    box-shadow: inset 1rem 1rem 1rem rgba(0,0,0,0.05),
+    1.5rem 2.5rem 1rem rgba(0, 0, 0, 0.05),
+    1.5rem 2rem 2rem rgba(0, 0, 0, 0.05),
+    inset -1rem -1rem 1.5rem rgba(255, 255, 255, 0.9);
+    margin: 2rem 5rem 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+div{
+    padding: .3rem;
+}
+
+.pads{
+    list-style-type: disc;
+}
+html{
+    font-size: 62.5%;
+}
+@media (max-width: 992px) {
+    html{
+        font-size: 50%;
+    }   
+}
